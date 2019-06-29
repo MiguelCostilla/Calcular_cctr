@@ -1,0 +1,8 @@
+Algoritmo circulo
+	p1<- 3.1415926535
+	Escribir "Bienvenidos"
+	Escribir "Por favor ingresar el radio"
+	Leer radio
+	
+	Escribir "El area es: ",p1 * radio * radio
+	FinAlgoritmo
