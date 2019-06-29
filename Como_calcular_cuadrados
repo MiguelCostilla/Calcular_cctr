@@ -1,0 +1,11 @@
+Algoritmo Cuadrado
+	Escribir "Ingresar el lado de un cuadrado: "
+	Leer Lado 
+	Escribir "el area un cuadrado es: " lado*lado
+	
+	
+	
+	
+	
+
+FinAlgoritmo
