@@ -1,0 +1,37 @@
+Algoritmo Cuadrado
+	Definir opc Como Entero
+	Definir Tri,cuad, Cir Como Real
+	Escribir "Por favor elige una opción"
+	Escribir " 0: Calcular Area del cuadrado"
+	Escribir " 1: Calcular area del triangulo"
+	Escribir " 2: Area del circulo"
+	Leer opc
+	Segun opc Hacer 
+		0:
+			Escribir "Area del cuadrado"
+			Escribir " Ingrese el lado"
+			Leer l
+			cuad <- 1 * 1
+			Escribir " El area es " ,cuad
+		1: 
+			Escribir " Area del triangulo"
+			Escribir "Ingrese la base"
+			Leer b
+			Escribir "Ingrese la altura"
+			Leer h
+			tri <-(b * h) / 2
+			Escribir "el area es: ",tri
+		2: Escribir " Area del circulo"
+			Escribir " Ingrese el radio"
+			Leer r
+			cir <- PI*r^2
+			Escribir "El area es : " ,cir
+		De Otro Modo:
+			Escribir "Opcion invalida"
+	FinSegun
+	
+	
+	
+	
+
+FinAlgoritmo
