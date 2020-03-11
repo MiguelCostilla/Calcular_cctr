@@ -1,9 +1,0 @@
-Algoritmo area_triangulo
-	Definir base, altura, area Como Real
-	Escribir "ingrese la Base"
-	leer base
-	Escribir "ingresa la altura"
-	Leer altura
-	area <-(base*altura)/2
-	Escribir "el area del triangulo es:", area
-FinAlgoritmo
